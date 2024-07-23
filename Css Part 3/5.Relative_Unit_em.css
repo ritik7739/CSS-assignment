@@ -1,0 +1,14 @@
+#outer{
+    width: 400px;
+    height: 400px;
+    background-color: pink;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+#inner{
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    font-size: 0.5em;
+}

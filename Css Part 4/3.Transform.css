@@ -1,0 +1,38 @@
+section{
+    margin-top: 100px;
+}
+
+div{
+    background-color: rgb(89, 230, 33);
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+div:nth-of-type(2n){
+    background-color: rgb(255, 44, 160);
+}
+div:nth-of-type(3n){
+    background-color: rgb(241, 108, 19);
+}
+
+/* transform rotate */
+
+#one{
+    transform: rotate(45deg);
+}
+#two{
+    transform: scale(0.5);
+}
+#three{
+   transform:translate(100px,100px);    /*  move in both x and y direction that is  100 px in
+                                            X-directon (that is in right of the page) and 100px
+                                            in Y-direction (that is downward to the page) */
+}
+
+/* we can also apply more than one property on the single element */
+
+#five{
+    transform: rotate(30deg) translateX(100px);
+}

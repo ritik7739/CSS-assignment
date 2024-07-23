@@ -1,0 +1,12 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(173, 255, 47);
+    border:5px solid black;
+    margin:5px;
+    display: inline-block;
+}
+
+#third{
+    display: none;
+}

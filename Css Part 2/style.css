@@ -1,0 +1,79 @@
+*{                                                   /*  Universal selector  */
+    font-family: 'Courier New', Courier, monospace;
+}
+ h1,h3{                                             /*  Multiple selector  */
+    color: #b92b27;
+}
+
+#login{                                            /*    Id selector      */
+    background-color: white;
+}
+#signup{                                          /*    Id selector      */
+    background-color: #b92b27;                  
+    color: white;
+}
+.follow{                                         /*    Class selector    */
+    background-color: greenyellow;
+}
+
+.upvote{
+    background-color: green;
+}
+
+/* descendant selector */
+
+.post a {
+    color: purple;
+    background-color: yellow;
+}
+nav ul a {
+    color: hotpink;
+}
+
+/* Sibling Combinators */
+
+p + h3 {
+   text-decoration: underline;
+}
+.upvote + button {
+    background-color: cornflowerblue;
+    color: black;
+}
+
+/* child combinators */
+
+div > input{
+    background-color: darksalmon;
+}
+
+/* Attribute selector */
+
+input[type="text"]{
+    color: rgb(24, 226, 67);
+}
+
+input[type="password"]{
+    color: red;
+}
+input[type]{
+    background-color: ghostwhite;
+}
+
+/* Practice Question */
+
+#myid p{
+    color: green;
+}
+
+/* Pseudo class */
+
+button:hover{
+    background-color: black;
+    color:white;
+}
+
+h3:hover{
+   text-decoration: overline;
+}
+
+

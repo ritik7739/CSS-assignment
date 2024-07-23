@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    text-decoration:red underline;
+    letter-spacing: 20px;
+    font-family: copperplate;
+}
+h2{
+    text-align: start;
+    text-decoration:blue double overline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+P{
+    text-align: start;
+    font-weight:500;
+    line-height: 2;  /*for more check line-height mdn */
+    font-size: 15 px; /* px is absolute unit of text measurement */
+}
